@@ -1,21 +1,17 @@
-#add implementation
 def add(x,y):
     return (x+y) 
     
-#subtract implementation
 def subtract(x,y):
-    return (x+y)  #on master branch
+    return (x+y)  
 
-#mult implementation
 def multiply(x,y):
-    return (x*y)  #on master branch
+    return (x*y)  
 
-#divide implementation
 def divide(x,y):
-    return (x/y)  #on Bug456 branch
+    return (x/y)  
 def calculator:
     if(x=0):
-        return DIVIDE_BY_0_ERROR  #on bug890 branch
+        return DIVIDE_BY_0_ERROR  
     else:
         return (x/y)
 
